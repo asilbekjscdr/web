@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: #fff;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#header .logo {
+    background-color: #243786;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 23px;
+}
+#header h1 {
+    color: #243786;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    color: grey;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 25px 10px;
+    display: inline-block;
+}
+
+.navbar li a:hover {
+    color: black;
+}
+
+
+/* Banner... */
+#banner {
+    height: 60vh;
+    background-image: url("../Rasmlar/BMW-M6-on-ADV.1-Wheels-10.jpg");
+    background-size: cover;
+    background-position: center -450px;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+#banner h1 {
+   margin-bottom: 25px;
+   padding-top: 120px;
+}
+
+#banner p {
+    padding-bottom: 25px;
+}
+
+
+/* Bannerdagi knopkalar... */
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.blue {
+    background-color: #243786;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.blue:hover {
+    background-color: #fff;
+    color: #243786;
+}
+
+.white:hover {
+    background-color: #303030;
+    color: #fff;
+}
+
+
+/* Wrapper... */
+#main-wrapper {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#main-wrapper .box1, .box2, .box3 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-size: cover;
+    color: #fff;
+}
+
+.box1 {
+    background-image: url("../Rasmlar/chevrolet-malibu-red.jpg");
+    margin-right: 10px;
+}
+
+.box2 {
+    background-image: url("../Rasmlar/Chevrolet-Malibu-KoKo-Kuture-Surrey-1-1600x900.jpg");
+    margin-right: 10px;
+}
+
+.box3 {
+    background-image: url("../Rasmlar/black-bmw-3-series-front-light-wallpaper-1934-on-wallpapermade.jpg");
+}
+
+.box1:hover {
+    color: red;
+}
+
+.wrapper h4 {
+    background-color: rgba(36, 55, 134, 0.8);
+    padding: 10px;
+}
+
+.wrapper i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+/* Featurelar... */
+#features {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+}
+
+#features h2 {
+    margin-bottom: 20px;
+}
+
+.feature {
+    width: 210px;
+    height: 220px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 45px 15px 0 15px;
+    margin-right: 10px;
+}
+
+.feature i {
+    font-size: 26px;
+    margin-bottom: 10px;
+    padding: 7px;
+    background-color: #243786;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.feature h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 13px;
+}
+
+
+/* Ikkinchi banner,,, */
+#banner-2 {
+    height: 60vh;
+    font-family: sans-serif;
+    background-image: url(../Rasmlar/BMW_M2_Competition.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+#banner-2 h1 {
+    margin-bottom: 15px;
+    padding-top: 160px;
+}
